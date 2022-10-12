@@ -15,188 +15,201 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-light position-fixed top-0 left-0 w-100">
+    <header class="header-page">
+        <nav class="navbar navbar-expand-lg bg-light position-fixed top-0 left-0 w-100 fw-bold">
             <div class="container">
-              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+              <a class="navbar-brand text-white" href="#">START BOOTSTRAP</a>
+              <a class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+              </a>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">PORTFOLIO</a>
+                    <a class="nav-link text-white" href="#">PORTFOLIO</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT</a>
+                    <a class="nav-link text-white" href="#">ABOUT</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
+                    <a class="nav-link text-white" href="#">CONTACT</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
-    </header>
-    <!-- <header class="pt-3 pb-3 my-bg-header position-fixed w-100">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-auto title-header">START BOOTSTRAP</div>
-                <div class="col-auto d-md-none">
-                    <button type="button" class="d-flex justify-content-center align-items-center btn btn-outline-secondary">
-                        <i class="bi bi-list"></i>
-                    </button>
-                </div>
-                <div class="d-none d-sm-none d-md-block col-auto">
-                    <ul class="list-group list-group-horizontal list-custom">
-                        <li class="list-group-item">PORTFOLIO</li>
-                        <li class="list-group-item">ABOUT</li>
-                        <li class="list-group-item">CONTACT</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header> -->
-    <section class="section-1 p-3 pt-md-5 pb-md-5 my-bg-s1">
-        <div class="container-fluid">
-            <div class="gy-3 row justify-content-center align-items-center text-center">
-                <div class="col-6 img-max">
-                    <img class="" src="img/avatar.svg" alt="">
-                </div>
-                <div class="w-100"></div>
-                <div class="col-12">
-                    <h1>START BOOTSTRAP</h1>
-                </div>
-                <div class="col-12 d-flex justify-content-center align-items-center ">
-                    <div class="line"></div>
-                    <i class="ms-3 me-3 fa-solid fa-star"></i>
-                    <div class="line"></div>
+
+          <section class="section-1 py-4 container text-center">
+            <div class="container">
+                <img class="col-6 col-md-2 mb-3" src="img/avatar.svg" alt="">
+                <h1>START BOOTSTRAP</h1>
+                <div class="col-12 mt-3 mb-3 d-flex justify-content-center align-items-center">
+                    <div class="line border border-white bg-white"></div>
+                    <i class="ms-3 me-3 fa-solid fa-star text-white"></i>
+                    <div class="line border border-white bg-white"></div>
                 </div>
                 <div class="col-12 job">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
             </div>
-        </div>
-    </section>
-    <section class="section-2 p-3 pt-md-5 pb-md-5 my-bg-s2">
-        <div class="container">
-            <div class="row gy-4 justify-content-center">
-                <div class="col-12">
-                    <h2 class="col-12 mt-3 mt-md-1 mb-3 text-center">
-                        PORTFOLIO
-                    </h2>
-                    <div class="col-12 d-flex justify-content-center align-items-center ">
-                        <div class="line"></div>
-                        <i class="ms-3 me-3 fa-solid fa-star"></i>
-                        <div class="line"></div>
+          </section>
+    </header>
+
+    <section class="portfolio py-4">
+        <div class="container text-center">
+            <h2>PORTFOLIO</h2>
+            <div class="col-12 mt-3 mb-3 d-flex justify-content-center align-items-center">
+                <div class="line border border-black bg-black"></div>
+                <i class="ms-3 me-3 fa-solid fa-star text-black"></i>
+                <div class="line border border-black bg-black"></div>
+            </div>
+            <div class="overflow-hidden">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="my_card position-relative">
+                            <img class="img-fluid rounded" src="img/cabin.png" alt="">
+                            <div class="layover d-flex justify-content-center align-items-center position-absolute">
+                                <i class="fa-solid fa-bold fa-plus"></i>
+                            </div>
+                        </div>
+                        
                     </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-xl-4">
-                    <img class="img-fluid rounded" src="img/cabin.png" alt="">
-                </div>
-                <div class="col-sm-12 col-md-6 col-xl-4 ">
-                    <img class="img-fluid rounded" src="img/cake.png" alt="">
-                </div>
-                <div class="col-sm-12 col-md-6 col-xl-4">
-                    <img class="img-fluid rounded" src="img/circus.png" alt="">
-                </div>
-                <div class="col-sm-12 col-md-6 col-xl-4">
-                    <img class="img-fluid rounded" src="img/game.png" alt="">
-                </div>
-                <div class="col-sm-12 col-md-6 col-xl-4">
-                    <img class="img-fluid rounded" src="img/safe.png" alt="">
-                </div>
-                <div class="col-sm-12 col-md-6 col-xl-4">
-                    <img class="img-fluid rounded" src="img/submarine.png" alt="">
+                    <div class="col">
+                        <div class="my_card position-relative">
+                            <img class="img-fluid rounded" src="img/cake.png" alt="">
+                            <div class="layover d-flex justify-content-center align-items-center position-absolute">
+                                <i class="fa-solid fa-bold fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="my_card position-relative">
+                            <img class="img-fluid rounded" src="img/circus.png" alt="">
+                            <div class="layover d-flex justify-content-center align-items-center position-absolute">
+                                <i class="fa-solid fa-bold fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="my_card position-relative">
+                            <img class="img-fluid rounded" src="img/safe.png" alt="">
+                            <div class="layover d-flex justify-content-center align-items-center position-absolute">
+                                <i class="fa-solid fa-bold fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="my_card position-relative">
+                            <img class="img-fluid rounded" src="img/cabin.png" alt="">
+                            <div class="layover d-flex justify-content-center align-items-center position-absolute">
+                                <i class="fa-solid fa-bold fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="my_card position-relative">
+                            <img class="img-fluid rounded" src="img/submarine.png" alt="">
+                            <div class="layover d-flex justify-content-center align-items-center position-absolute">
+                                <i class="fa-solid fa-bold fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section-3 p-4 p-md-5 my-bg-s3">
-        <div class="container-xs">
-            <div class="row gy-2 gy-md-1 justify-content-center">
-                <div class="col-12">
-                    <h2 class="col-auto text-center">
-                        ABOUT
-                    </h2>
-                    <div class="col-12 d-flex justify-content-center align-items-center ">
-                        <div class="line"></div>
-                        <i class="ms-3 me-3 fa-solid fa-star"></i>
-                        <div class="line"></div>
+    <section class="about py-4 text-white">
+        <div class="container text-center">
+            <div class="col-10 mx-auto">
+                <h2>ABOUT</h2>
+                <div class="col-12 mt-3 mb-3 d-flex justify-content-center align-items-center ">
+                    <div class="line line border border-white bg-white"></div>
+                    <i class="ms-3 me-3 fa-solid fa-star text-white"></i>
+                    <div class="line line border border-white bg-white"></div>
+                </div>
+                <div class="overflow-hidden">
+                    <div class="row text-start g-5">
+                        <div class="col-12 col-sm-6 my_text">
+                            Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and Javascript as well as optional LESS stylesheets for easy customization.
+                        </div>
+                        <div class="col-12 col-sm-6 my_text">
+                            Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+                        </div>
                     </div>
-                </div>
-                <div class="w-100"></div>
-                <div class="col-auto col-md-6 text-little">
-                    Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and Javascript as well as optional LESS stylesheets for easy customization.
-                  
-                </div>
-                <div class="col-auto col-md-6 text-little">
-                    Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
-                </div>
-                <div class="col-auto col-md-auto mt-4">
-                    <button type="button" class="btn btn-outline-secondary">
-                        <i class="fa-solid fa-download"></i>
+                    <a type="button" class="btn btn-outline-secondary mt-4 my_text text-white fw-semibold border border-white">
+                        <i class="fa-solid fa-download text-white"></i>
                         Download
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section-4">
+
+    <section class="contact-me py-4">
         <div class="container">
-            <div class="col-9 mx-auto">
+            <div class="col-7 mx-auto">
                 <h2 class="text-center">CONTACT ME</h2>
                 <div class="col-12 d-flex justify-content-center align-items-center">
-                    <div class="line"></div>
-                    <i class="ms-3 me-3 fa-solid fa-star"></i>
-                    <div class="line"></div>
+                    <div class="line border border-black bg-black"></div>
+                    <i class="ms-3 me-3 fa-solid fa-star text-black"></i>
+                    <div class="line border border-black bg-black"></div>
                 </div>
-
-                <div class="mb-3">
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
-                  </div>
-                  <div class="mb-3">
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
-                  </div>
+                <form action="" method="post">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+                      </div>
+                      <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+                      </div>
+                      <div class="mb-3">
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Phone Number">
+                      </div>
+                      <div class="mb-3">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary my_text fw-semibold">Send</button>
+                </form>
             </div>
         </div>
     </section>
-    <footer class="p-4">
-        <div class="container">
-            <div class="row gy-4 justify-content-center">
-                <div class="col-12 col-md-4 text-center">
-                    <div class="job">LOCATION</div>
-                    <div class="text-little">2215 John Daniel Drive Clark, MO 54243</div>
-                </div>
-                <div class="col-12 col-md-4 text-center">
-                    <div class="mb-1 job">AROUND THE WEB</div>
-                    <div class="d-flex justify-content-center">
-                        <div class="me-2 d-flex justify-content-center align-items-center circle-social">
-                            <i class="fa-brands fa-facebook-f"></i>
+
+    <footer class="py-4 text-white">
+        <div class="container text-center">
+            <div class="overflow-hidden">
+                <div class="row gy-4">
+                    <div class="col-12 col-sm-4">
+                        <div class="job">LOCATION</div>
+                        <div class="my_text">2215 John Daniel Drive Clark, MO 54243</div>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <div class="mb-1 job">AROUND THE WEB</div>
+                        <div class="d-flex justify-content-center">
+                            <div class="me-2 d-flex justify-content-center align-items-center circle-social">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="me-2 d-flex justify-content-center align-items-center circle-social">
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </div>
+                            <div class="me-2 d-flex justify-content-center align-items-center circle-social">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center circle-social">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div> 
                         </div>
-                        <div class="me-2 d-flex justify-content-center align-items-center circle-social">
-                            <i class="fa-brands fa-google-plus-g"></i>
-                        </div>
-                        <div class="me-2 d-flex justify-content-center align-items-center circle-social">
-                            <i class="fa-brands fa-twitter"></i>
-                        </div>
-                        <div class="d-flex justify-content-center align-items-center circle-social">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                        </div> 
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <div class="job">ABOUT FREELANCER</div>
+                        <div class="my_text">Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span></div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 text-center">
-                    <div class="job">ABOUT FREELANCER</div>
-                    <div class="text-little">Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span></div>
-                </div> 
             </div>
         </div>
     </footer>
     <div class="p-4 sub-footer">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-12 text-center">
-                    Copyright &#169; Your Website 2019  
-                </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12 text-center">
+                Copyright &#169; Your Website 2019  
             </div>
+        </div>
     </div>
 
         <!-- Bootstrap js -->
