@@ -202,6 +202,7 @@ footer span {
 
 .my_card:hover .layover {
     z-index: 1;
+    cursor: pointer;
 }
 
 header .navbar li :hover {
@@ -223,5 +224,14 @@ footer a:hover {
 
 footer a:hover i {
     color: #3a546d !important;
+}
+
+form button:active {
+    background-color: #1abc9c !important;
+}
+
+.about a:active {
+    background-color: #6c757d !important;
+    border: none !important;
 }
 
