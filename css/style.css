@@ -209,6 +209,10 @@ header .navbar li :hover {
     color: #1abc9c !important;
 }
 
+.about a:hover {
+    border: none !important;
+}
+
 .contact-me button:hover {
     background-color: #6c757d;
 }
